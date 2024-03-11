@@ -1,6 +1,6 @@
 # funalgorithm
 
-## Task 1
+## Install the package by downloading the package folder
 
 Steps to run functions in the package:
 
@@ -12,7 +12,7 @@ Steps to run functions in the package:
 
   library(devtools)
   
-3. Locally instal "funalgorithm"
+3. Locally instal "funalgorithm" (Make sure the funalgorithm folder is downloaded and that you are working in the directory where the folder is stored.)
 
   install_local("funalgorithm",force=TRUE)
 
@@ -53,8 +53,7 @@ rcpp_stable_marriage(preference_table_1,preference_table_2)
 
 #a:   'B' d:   'A' b:   'C' c:   'D' A:   'd' C:   'b' D:   'c' B:   'a'
 
-
-## Task 2
+## Install the package directly from github
 
 To download the package from github:
 1. Instal "devtool" if not done already
