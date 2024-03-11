@@ -57,6 +57,18 @@ rcpp_stable_marriage(preference_table_1,preference_table_2)
 
 #a:   'B' d:   'A' b:   'C' c:   'D' A:   'd' C:   'b' D:   'c' B:   'a'
 
+The data can also be inputted in list of vector of string format as follows:
+
+preference_table_1l <- list(c("c","b","d","a"),c("b","a","c","d"),c("b","d","a","c"),c("c","a","d","b"))
+
+names(preference_table_1l) <- c("A","B","C","D")
+
+preference_table_2l <- list(c("A","B","D","C"),c("C","A","D","B"),c("C","B","D","A"),c("B","A","C","D"))
+
+names(preference_table_2l) <- c("a","b","c","d")
+
+rcpp_stable_marriage(preference_table_1l,preference_table_2l)
+
 ## Install the package directly from github
 
 To download the package from github:
