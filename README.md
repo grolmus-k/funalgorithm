@@ -4,19 +4,23 @@
 
 Steps to run functions in the package:
 
-1. Instal "devtool" if not done already
+1. Download the funalgorithm folder.
+
+2. Open R. Make sure you are working in the directory where the folder is stored.
+
+3. Instal "devtool" if not done already
 
   install.packages("devtools")
   
-2. Load devtools package
+4. Load devtools package
 
   library(devtools)
   
-3. Locally instal "funalgorithm" (Make sure the funalgorithm folder is downloaded and that you are working in the directory where the folder is stored.)
+5. Locally instal "funalgorithm" 
 
   install_local("funalgorithm",force=TRUE)
 
-4. Load funalgorithm package
+6. Load funalgorithm package
 
   library(funalgorithm)
 
