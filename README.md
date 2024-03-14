@@ -8,7 +8,7 @@ Steps to run functions in the package:
 
 2. Open R. Make sure you are working in the directory where the folder is stored.
 
-3. Instal "devtool" if not done already
+3. Instal "devtools" if not done already
 
   install.packages("devtools")
   
