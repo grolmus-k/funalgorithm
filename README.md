@@ -72,7 +72,7 @@ rcpp_stable_marriage(preference_table_1l,preference_table_2l)
 ## Install the package directly from github
 
 To download the package from github:
-1. Instal "devtool" if not done already
+1. Instal "devtools" if not done already
 
   install.packages("devtools")
   
